@@ -21,3 +21,7 @@ sudo cp ./plexconnect_Settings.cfg /usr/local/lib/PlexConnect/PlexConnect-master
 
 sudo mv /Desktop/iMovie.cer /usr/local/lib/PlexConnect/PlexConnect-master/assets/certificates/iMovie.cer
 sudo mv /Desktop/iMovie.pem /usr/local/lib/PlexConnect/PlexConnect-master/assets/certificates/iMovie.pem
+
+sudo apt-get install deluged -y
+sudo apt-get install python-mako -y
+sudo apt-get install deluge-web -y
