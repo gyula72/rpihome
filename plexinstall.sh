@@ -16,9 +16,8 @@ sudo mkdir PlexConnect
 cd PlexConnect
 sudo wget https://github.com/iBaa/PlexConnect/archive/master.zip
 sudo unzip master.zip
-sudo mkdir /Desktop
-cd /Desktop
-sudo rm *
+sudo rm /usr/local/lib/PlexConnect/PlexConnect-master/Settings.cfg
+sudo cp ./plexconnect_Settings.cfg /usr/local/lib/PlexConnect/PlexConnect-master/Settings.cfg
 
 sudo mv /Desktop/iMovie.cer /usr/local/lib/PlexConnect/PlexConnect-master/assets/certificates/iMovie.cer
 sudo mv /Desktop/iMovie.pem /usr/local/lib/PlexConnect/PlexConnect-master/assets/certificates/iMovie.pem
